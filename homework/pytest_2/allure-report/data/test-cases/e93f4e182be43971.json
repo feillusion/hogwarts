@@ -1,0 +1,251 @@
+{
+  "uid" : "e93f4e182be43971",
+  "name" : "test_add[get_add_datas3]",
+  "fullName" : "testcase.TestAdd#test_add",
+  "historyId" : "f5e0fe60fff8d461e02003eba3012724",
+  "time" : {
+    "start" : 1609591371518,
+    "stop" : 1609591371517,
+    "duration" : -1
+  },
+  "status" : "failed",
+  "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcase.py:23: AssumptionFailure\n>>\tpytest.assume(result == get_add_datas[2])\nAssertionError: assert False",
+  "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               1 Failed Assumptions:\nE               \nE               testcase.py:23: AssumptionFailure\nE               >>\tpytest.assume(result == get_add_datas[2])\nE               AssertionError: assert False\n\n..\\..\\venv\\lib\\site-packages\\six.py:702: FailedAssumption",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "fix_module",
+    "time" : {
+      "start" : 1609591371107,
+      "stop" : 1609591371108,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "生成计算器实例",
+      "time" : {
+        "start" : 1609591371107,
+        "stop" : 1609591371107,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  }, {
+    "name" : "fix_method",
+    "time" : {
+      "start" : 1609591371517,
+      "stop" : 1609591371518,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_add_datas",
+    "time" : {
+      "start" : 1609591371413,
+      "stop" : 1609591371413,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_TestAdd",
+    "time" : {
+      "start" : 1609591371108,
+      "stop" : 1609591371108,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcase.py:23: AssumptionFailure\n>>\tpytest.assume(result == get_add_datas[2])\nAssertionError: assert False",
+    "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               1 Failed Assumptions:\nE               \nE               testcase.py:23: AssumptionFailure\nE               >>\tpytest.assume(result == get_add_datas[2])\nE               AssertionError: assert False\n\n..\\..\\venv\\lib\\site-packages\\six.py:702: FailedAssumption",
+    "steps" : [ {
+      "name" : "加法验证",
+      "time" : {
+        "start" : 1609591371519,
+        "stop" : 1609591371528,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "fix_module::0",
+    "time" : {
+      "start" : 1609591387216,
+      "stop" : 1609591387216,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "fix_method::0",
+    "time" : {
+      "start" : 1609591371561,
+      "stop" : 1609591371562,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_add_datas::0",
+    "time" : {
+      "start" : 1609591371569,
+      "stop" : 1609591371569,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_TestAdd::0",
+    "time" : {
+      "start" : 1609591371586,
+      "stop" : 1609591371586,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "加法测试"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=2)"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdd"
+  }, {
+    "name" : "host",
+    "value" : "PC-20150415WRCK"
+  }, {
+    "name" : "thread",
+    "value" : "5644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_add_datas",
+    "value" : "[-1, 'a', 'None']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ee28a6d70f5b1334",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcase.py:23: AssumptionFailure\n>>\tpytest.assume(result == get_add_datas[2])\nAssertionError: assert False",
+      "time" : {
+        "start" : 1609591371468,
+        "stop" : 1609591371467,
+        "duration" : -1
+      }
+    }, {
+      "uid" : "517a99e40e9127dd",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcase.py:23: AssumptionFailure\n>>\tpytest.assume(result == get_add_datas[2])\nAssertionError: assert False",
+      "time" : {
+        "start" : 1609591371414,
+        "stop" : 1609591371411,
+        "duration" : -3
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=1)", "flaky(reruns=2)" ]
+  },
+  "source" : "e93f4e182be43971.json",
+  "parameterValues" : [ "[-1, 'a', 'None']" ]
+}

@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcase.py:23: AssumptionFailure\n>>\tpytest.assume(result == get_add_datas[2])\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_add[get_add_datas3]",
+        "uid" : "e93f4e182be43971",
+        "parentUid" : "96ccbf532a23d3e46b4859514110dad4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609591371518,
+          "stop" : 1609591371517,
+          "duration" : -1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[-1, 'a', 'None']" ]
+      } ],
+      "uid" : "96ccbf532a23d3e46b4859514110dad4"
+    }, {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcase.py:43: AssumptionFailure\n>>\tpytest.assume(result == get_div_datas[2])\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_div[get_div_datas2]",
+        "uid" : "150b44d61ee529f7",
+        "parentUid" : "d77cefcd93559efaf18682f2a66049c5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609591387142,
+          "stop" : 1609591387140,
+          "duration" : -2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[4, 0, 2]" ]
+      } ],
+      "uid" : "d77cefcd93559efaf18682f2a66049c5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

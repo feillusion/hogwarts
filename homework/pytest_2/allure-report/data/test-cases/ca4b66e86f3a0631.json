@@ -1,0 +1,225 @@
+{
+  "uid" : "ca4b66e86f3a0631",
+  "name" : "test_add[get_add_datas1]",
+  "fullName" : "testcase.TestAdd#test_add",
+  "historyId" : "135db71a045808368dc8e4d27cf7f0ee",
+  "time" : {
+    "start" : 1609591371383,
+    "stop" : 1609591371391,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_add_datas",
+    "time" : {
+      "start" : 1609591371382,
+      "stop" : 1609591371382,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "fix_method",
+    "time" : {
+      "start" : 1609591371382,
+      "stop" : 1609591371382,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "fix_module",
+    "time" : {
+      "start" : 1609591371107,
+      "stop" : 1609591371108,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "生成计算器实例",
+      "time" : {
+        "start" : 1609591371107,
+        "stop" : 1609591371107,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  }, {
+    "name" : "xunit_setup_class_fixture_TestAdd",
+    "time" : {
+      "start" : 1609591371108,
+      "stop" : 1609591371108,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "加法验证",
+      "time" : {
+        "start" : 1609591371383,
+        "stop" : 1609591371391,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_add_datas::0",
+    "time" : {
+      "start" : 1609591371396,
+      "stop" : 1609591371396,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "fix_method::0",
+    "time" : {
+      "start" : 1609591371392,
+      "stop" : 1609591371392,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "fix_module::0",
+    "time" : {
+      "start" : 1609591387216,
+      "stop" : 1609591387216,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_TestAdd::0",
+    "time" : {
+      "start" : 1609591371586,
+      "stop" : 1609591371586,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "加法测试"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=2)"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdd"
+  }, {
+    "name" : "host",
+    "value" : "PC-20150415WRCK"
+  }, {
+    "name" : "thread",
+    "value" : "5644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_add_datas",
+    "value" : "['hello', 'world', 'helloworld']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "flaky(reruns=2)" ]
+  },
+  "source" : "ca4b66e86f3a0631.json",
+  "parameterValues" : [ "['hello', 'world', 'helloworld']" ]
+}
