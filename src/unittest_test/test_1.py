@@ -43,7 +43,9 @@ class TestCases(unittest.TestCase):
 class TestCases1(unittest.TestCase):
 
     def test_01(self):
-        print("这是另一个类")
+        print("这是另一个类中的函数")
+
+
 
 if __name__ == '__main__':
     #执行全部用例
@@ -56,12 +58,12 @@ if __name__ == '__main__':
     #添加指定类
     # suite=unittest.TestLoader().loadTestsFromTestCase(TestCases)
     #指定路径(可以写在别的py文件里)
-    test_dir = "../unittest_test"
+    test_dir = ""
     suite = unittest.defaultTestLoader.discover(test_dir,pattern="test_*.py")
     #执行添加的用例/类
     # runner = unittest.TextTestRunner()
     # runner.run(suite)
     #执行添加的用例/类，并生成报告
-    with open("./result.html","wb") as report:
+    with open("result.html", "wb") as report:
         runner = HTMLTestRunner_PY3.HTMLTestRunner(stream=report, title="tesc_report", description="test_description")
         runner.run(suite)
