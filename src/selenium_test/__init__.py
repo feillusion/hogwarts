@@ -61,3 +61,10 @@
 # mac:     browser=chrome pytest test_selenium/test_hogwarts.py
 # windows: set browser=chrome
 #          pytest test_selenium/test_hogwarts.py
+
+
+# 执行js脚本
+# 如何调用： selenium内置方法： 执行 execute_script()    返回js的返回结果 return    传参 execute_script: arguments
+#   driver.execute_script("window.alert('selenium弹框测试')")
+#   driver.execute_script("a = document.getElementById('kw').value;window.alert(a)")
+#   driver.execute_script("return document.getElementById('kw').value")
