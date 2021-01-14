@@ -63,8 +63,35 @@
 #          pytest test_selenium/test_hogwarts.py
 
 
-# 执行js脚本
+# 执行js脚本（一些通过selenium无法操作的动作可以通过js代码块来实现）
 # 如何调用： selenium内置方法： 执行 execute_script()    返回js的返回结果 return    传参 execute_script: arguments
 #   driver.execute_script("window.alert('selenium弹框测试')")
 #   driver.execute_script("a = document.getElementById('kw').value;window.alert(a)")
 #   driver.execute_script("return document.getElementById('kw').value")
+#   时间控件赋值： a.removeAttribute("readonly")   移除元素a的readonly属性--->赋值  a.value = ‘2020-12-30’
+
+# 文件上传
+# input标签可以直接使用send_keys(文件地址)上传
+# driver.find_element_by_id().send_keys(文件地址)
+
+# 弹框处理（JS生成的alert,confirm,prompt弹框）
+# switch_to.alert()定位弹框
+# text: 返回alert,confirm,prompt中的文字信息
+# accept(): 接受现有警告框
+# dismiss(): 解散现有警告框
+# send_keys(keysToSend): 发送文本至警告框。keysToSend：将文本发送至警告框
+
+# pageobject六大原则
+
+# The public methods represent the services that the page offers
+# 公共方法表示页面提供的服务
+# Try not to expose the internals of the page
+# 不要暴露页面的细节
+# Generally don't make assertions
+# Page设计中不要出现断言，应该写在测试用例类中
+# Methods return other PageObjects
+# 方法应该返回其他的Page对象
+# Need not represent an entire page
+# 不要去代表整个page，如果一个页面中有很多功能，只需要对重点功能封装方法即可
+# Different results for the same action are modeled as different methods
+# 不同的结果返回不同的方法，不同的模式
