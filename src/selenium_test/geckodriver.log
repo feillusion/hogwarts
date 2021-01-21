@@ -1343,3 +1343,4 @@ exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:1
 Line: 130, column: 9
 console.error: (new TypeError("null has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
 JavaScript error: https://s1.hdslb.com/bfs/static/player/main/video.41e4f71f.js?v=20201013, line 2: NS_ERROR_NOT_INITIALIZED: 
+1610695810874	Marionette	INFO	Stopped listening on port 64161
