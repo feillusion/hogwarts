@@ -1,0 +1,209 @@
+[
+  {
+    "domain": ".work.weixin.qq.com",
+    "httpOnly": true,
+    "name": "wwrtx.ltype",
+    "path": "/",
+    "secure": false,
+    "value": "1"
+  },
+  {
+    "domain": ".work.weixin.qq.com",
+    "httpOnly": true,
+    "name": "wwrtx.vst",
+    "path": "/",
+    "secure": false,
+    "value": "C3xn2PAKBUBs28gjq894u9FHrLsrjGIrQeC9fPM9PQqOp21IQpEaBexjRAkKVBly8HmVP5QSXiAmgNg4hUWopiqFC5jb1jsfjqJLslQcZnPBYyChPPwJCWhf5Zlg7azn8XkLFdDQ1m-UC1QlshGgVfPHrDC-vTqve3vNC0-lPFp97fAfqGDCaEjyJxVFOd6AupEIBSgo6HHtMonfXC0n-fJpCYEklI0QgRBZ11jYvIxgM-y4RziHHuxJPLnk0Mn9v1oNzTSgyvpact1n-ZKRHQ"
+  },
+  {
+    "domain": ".work.weixin.qq.com",
+    "httpOnly": false,
+    "name": "wxpay.vid",
+    "path": "/",
+    "secure": false,
+    "value": "1688851977186030"
+  },
+  {
+    "domain": ".qq.com",
+    "expiry": 2147385600,
+    "httpOnly": false,
+    "name": "pgv_pvi",
+    "path": "/",
+    "secure": false,
+    "value": "9046986752"
+  },
+  {
+    "domain": ".work.weixin.qq.com",
+    "httpOnly": true,
+    "name": "wwrtx.sid",
+    "path": "/",
+    "secure": false,
+    "value": "vGx6hvypzhJdE1qzXf3Z4Oqk7V75QlJEXobQcrUwpG5cVsLBdftOnRF6YsIdqTZf"
+  },
+  {
+    "domain": ".work.weixin.qq.com",
+    "httpOnly": true,
+    "name": "wwrtx.ref",
+    "path": "/",
+    "secure": false,
+    "value": "direct"
+  },
+  {
+    "domain": ".qq.com",
+    "expiry": 1611652319,
+    "httpOnly": false,
+    "name": "_gid",
+    "path": "/",
+    "secure": false,
+    "value": "GA1.2.721314717.1611553296"
+  },
+  {
+    "domain": ".work.weixin.qq.com",
+    "httpOnly": false,
+    "name": "wwrtx.d2st",
+    "path": "/",
+    "secure": false,
+    "value": "a7145342"
+  },
+  {
+    "domain": ".work.weixin.qq.com",
+    "httpOnly": true,
+    "name": "wwrtx.refid",
+    "path": "/",
+    "secure": false,
+    "value": "3007519524792723"
+  },
+  {
+    "domain": ".work.weixin.qq.com",
+    "expiry": 1643089736,
+    "httpOnly": false,
+    "name": "Hm_lvt_9364e629af24cb52acc78b43e8c9f77d",
+    "path": "/",
+    "secure": false,
+    "value": "1611214300,1611553295"
+  },
+  {
+    "domain": ".qq.com",
+    "expiry": 1674637919,
+    "httpOnly": false,
+    "name": "_ga",
+    "path": "/",
+    "secure": false,
+    "value": "GA1.2.1156586016.1611214301"
+  },
+  {
+    "domain": ".work.weixin.qq.com",
+    "expiry": 1614157931,
+    "httpOnly": false,
+    "name": "wwrtx.i18n_lan",
+    "path": "/",
+    "secure": false,
+    "value": "zh"
+  },
+  {
+    "domain": ".qq.com",
+    "expiry": 1642569804,
+    "httpOnly": false,
+    "name": "Qs_pv_323937",
+    "path": "/",
+    "secure": false,
+    "value": "6125918293883141"
+  },
+  {
+    "domain": ".qq.com",
+    "expiry": 1642569804,
+    "httpOnly": false,
+    "name": "Qs_lvt_323937",
+    "path": "/",
+    "secure": false,
+    "value": "1611033804"
+  },
+  {
+    "domain": ".work.weixin.qq.com",
+    "httpOnly": false,
+    "name": "wxpay.corpid",
+    "path": "/",
+    "secure": false,
+    "value": "1970325047335347"
+  },
+  {
+    "domain": ".qq.com",
+    "expiry": 1921729814,
+    "httpOnly": false,
+    "name": "pac_uid",
+    "path": "/",
+    "secure": false,
+    "value": "1_594508092"
+  },
+  {
+    "domain": ".qq.com",
+    "expiry": 2147483647,
+    "httpOnly": false,
+    "name": "ptcz",
+    "path": "/",
+    "secure": false,
+    "value": "28211377d2cb2c768cb821eb0279f8c8baa538a8bc9211437a224f1b1526a26e"
+  },
+  {
+    "domain": ".qq.com",
+    "expiry": 1926064400,
+    "httpOnly": false,
+    "name": "tvfe_boss_uuid",
+    "path": "/",
+    "secure": false,
+    "value": "d8bc916d59d9944f"
+  },
+  {
+    "domain": ".work.weixin.qq.com",
+    "expiry": 1642750221,
+    "httpOnly": false,
+    "name": "wwrtx.c_gdpr",
+    "path": "/",
+    "secure": false,
+    "value": "0"
+  },
+  {
+    "domain": ".qq.com",
+    "expiry": 2147385600,
+    "httpOnly": false,
+    "name": "pgv_pvid",
+    "path": "/",
+    "secure": false,
+    "value": "2517029840"
+  },
+  {
+    "domain": ".qq.com",
+    "expiry": 2147385600,
+    "httpOnly": false,
+    "name": "o_cookie",
+    "path": "/",
+    "secure": false,
+    "value": "594508092"
+  },
+  {
+    "domain": ".qq.com",
+    "expiry": 2147483648,
+    "httpOnly": false,
+    "name": "RK",
+    "path": "/",
+    "secure": false,
+    "value": "QcYsMSKXON"
+  },
+  {
+    "domain": ".work.weixin.qq.com",
+    "httpOnly": false,
+    "name": "wwrtx.vid",
+    "path": "/",
+    "secure": false,
+    "value": "1688851977186030"
+  },
+  {
+    "domain": "work.weixin.qq.com",
+    "expiry": 1611584824,
+    "httpOnly": true,
+    "name": "ww_rtkey",
+    "path": "/",
+    "secure": false,
+    "value": "7unojon"
+  }
+]
