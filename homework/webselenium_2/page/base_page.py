@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 import json
 
@@ -13,6 +14,7 @@ class BasePage:
             self.driver.maximize_window()
             #添加登录cookie,隐式等待
             self._login_cookie()
+            self.driver.get('https://work.weixin.qq.com/wework_admin/frame#index')
             self.driver.implicitly_wait(5)
         else:
             self.driver = base_driver
@@ -23,6 +25,22 @@ class BasePage:
             cookies = json.load(f)
         for cookie in cookies:
             self.driver.add_cookie(cookie)
+
+    def find(self,value,by='xpath'):
+        if by=='id':
+            return self.driver.find_element(By.ID,value)
+        elif by=='css':
+            return self.driver.find_element((By.CSS_SELECTOR,value))
+        else:
+            return self.driver.find_element(By.XPATH,value)
+
+    def finds(self,value,by='xpath'):
+        if by=='id':
+            return self.driver.find_elements(By.ID,value)
+        elif by=='css':
+            return self.driver.find_elements((By.CSS_SELECTOR,value))
+        else:
+            return self.driver.find_elements(By.XPATH,value)
 
     def quit(self):
         self.driver.quit()
