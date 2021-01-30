@@ -62,3 +62,67 @@
 # 饮食等待，增强用例的稳定性
 # 元素定位与操作 find+action
 # 断言 assert
+
+# capability 设置 ---官方文档https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md
+# app apk 地址
+# appPackage 包名
+# appActivity Activity名字
+# automationName 默认使用uiautomator2 (andorid默认使用uiautomator2,IOS默认使用XCUITest)
+# noReset fullReset 是否在测试前后重置相关环境 (例如首次打开弹窗，登录信息等)
+# unicodeKeyBoard resetKeyBoard 是否需要输入非英文之外的语言并在测试完成后重置输入法
+# dontStopAppOnReset 首次启动的时候，不停止app
+# skipDeviceInitialization 跳过安装，权限设置等操作
+
+# appium元素定位
+# driver.find_element_by_id(resource-id)
+# driver.find_element_by_accessibility_id(content-desc)
+# driver.find_element_by_xpath(xpath属性值)
+
+# 强制等待：sleep()
+# 隐式等待：driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS)  在服务端等待
+# 显式等待：Element = WebDriverWait(driver,10,0.5).until(expected_conditions.visibility_of_element_located((MobileBy.ID,"com.android.settings:id/title")))  在客户端等待
+
+# android 基础知识
+# android是通过容器的布局属性来管理子控件的位置关系，布局过程就是把界面上的所有控件根据他们的间距大小摆放在正确的位置
+# android七大布局：
+    # 线性布局（LInearLayout）
+    # 相对布局（RelativeLayout）
+    # 帧布局（FrameLayout）
+    # 表格布局（TableLayout）
+    # 绝对布局（absoluteLayout）
+    # 网格布局（GridLayout）
+    # 约束布局（ConstraintLayout）
+# android四大组件：
+    # activity   与用户交互的可视化界面
+    # service    实现程序后台运行的解决方案
+    # content provider    内容提供者，提供程序所需要得数据
+    # broadcast receiver   广播接收器，监听外部事件的到来（比如来电）
+# 常用的控件
+    # TextView(文本控件)，EditText(可编辑文本控件)
+    # Button(按钮)，ImageButton(图片按钮)，ToggleButton(开关按钮)
+    # ImageView(图片控件)
+    # CheckBox(复选框控件),RadioButton(单选框控件)
+
+
+# IOS基础知识
+# 布局：IOS去掉了布局的概念，直接用变量之间的相对关系完成位置的计算
+# 开发环境：
+    # 系统：MacOS X
+    # 开发工具：Xcode
+    # 开发语言：ObjectC
+    # 安装文件：.ipa文件/.app文件
+# 元素定位：实际上就上定位控件
+
+
+# 控件基础知识
+# dom: Document Object Model 文档对象模型
+# dom应用: 最早应用于html和js的交互。用于表示界面的控件层级，界面的结构化描述，常见的格式为html/xml。核心元素为节点和属性
+# xpath：xml路径语言，用于xml中的节点定位
+# Android应用的层级结构与html不一样，是一个定制的xml
+# app source类似于dom，表示app的层级，代表了界面里面所有的控件树的结构
+# 每个控件都要它的属性(resourceid,xpath,aid)，没有css属性
+
+
+# 定位工具
+# uiautomatorviewer(only for android)
+# Appium inspector
