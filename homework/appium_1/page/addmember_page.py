@@ -1,5 +1,4 @@
 from appium.webdriver.common.touch_action import TouchAction
-
 from homework.appium_1.page.base_page import BasePage
 
 
@@ -11,7 +10,7 @@ class AddMember(BasePage):
     def add_member(self,name,sex,phone,deps,asserts):
         #输入姓名
         self.sendkeys('//*[@resource-id="com.tencent.wework:id/et5"]//*[@text="必填"]',name)
-        #性别选择女
+        #性别选择
         self.click('//*[@text="性别" and @resource-id="com.tencent.wework:id/b7p"]/../*[@resource-id="com.tencent.wework:id/eso"]')
         sex = self.find(f'//*[@text="{sex}" and @resource-id="com.tencent.wework:id/en5"]')
         TouchAction(self.driver).tap(x=sex.location['x'],y=sex.location['y']).perform()

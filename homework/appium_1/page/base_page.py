@@ -1,6 +1,4 @@
 import json
-
-import yaml
 from appium import webdriver
 from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.webdriver import WebDriver
