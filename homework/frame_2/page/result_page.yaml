@@ -1,0 +1,3 @@
+'get_result':
+  - 'action': gettexts
+    'locator': ['xpath','//*[@resource-id="com.xueqiu.android:id/stockCode"]']

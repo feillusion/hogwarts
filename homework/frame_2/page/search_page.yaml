@@ -1,0 +1,7 @@
+'search':
+  - 'action': sendkeys
+    'locator': ['xpath','//*[@resource-id="com.xueqiu.android:id/search_input_text"]']
+    'keys': [1]
+  - 'action': click
+    'locator': ['xpath','//*[@resource-id="com.xueqiu.android:id/code" and @text="${}"]']
+    'locator_replace': [2]

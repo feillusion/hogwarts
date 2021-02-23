@@ -1,0 +1,2 @@
+'xueqiu':
+  - [xpath,'//*[@resource-id="com.xueqiu.android:id/iv_close"]']
