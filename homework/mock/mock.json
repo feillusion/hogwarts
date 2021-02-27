@@ -1,0 +1,82 @@
+{
+  "data": {
+    "items": [
+      {
+        "market": {
+          "status_id": 8,
+          "region": "US",
+          "status": "休市",
+          "time_zone": "America/New_York",
+          "time_zone_desc": null
+        },
+        "quote": {
+          "symbol": "BRK.A",
+          "code": "BRK.A",
+          "exchange": "NYSE",
+          "name": "伯克希尔-哈哈哈",
+          "type": 0,
+          "sub_type": "257",
+          "status": 1,
+          "current": 50,
+          "currency": "USD",
+          "percent": -0.99,
+          "chg": -3219.98,
+          "timestamp": 1614373800002,
+          "time": 1614373800002,
+          "lot_size": 1,
+          "tick_size": 0.01,
+          "open": 370220.005,
+          "last_close": 367799.99,
+          "high": 374490.0,
+          "low": 363680.0,
+          "avg_price": 365836.672,
+          "volume": 1863,
+          "amount": 6.815524633253E8,
+          "turnover_rate": 0.12,
+          "amplitude": 2.94,
+          "market_capital": 5.69893607212E11,
+          "float_market_capital": null,
+          "total_shares": 1563151,
+          "float_shares": null,
+          "issue_date": 596736000000,
+          "lock_set": 1,
+          "current_year_percent": 4.82,
+          "high52w": 377356.95,
+          "low52w": 239440.0,
+          "variable_tick_size": "0.0001 1 0.01",
+          "volume_ratio": 0.96,
+          "eps": 22931.245925697516,
+          "pe_ttm": 15.899,
+          "pe_lyr": 6.9997,
+          "navps": 300.7964,
+          "pb": 1.3727249032578193,
+          "dividend": null,
+          "dividend_yield": null,
+          "psr": 1.97,
+          "short_ratio": null,
+          "inst_hld": null,
+          "beta": null,
+          "timestamp_ext": 1614373775602,
+          "current_ext": 364580.01,
+          "percent_ext": 0.0,
+          "chg_ext": 0.0,
+          "contract_size": 1,
+          "pe_forecast": 63.928,
+          "profit_forecast": 8.914666666666666E9,
+          "profit": 8.1417E10,
+          "profit_four": 3.5845E10,
+          "pledge_ratio": null,
+          "goodwill_in_net_assets": 24.452794739314232,
+          "shareholder_funds": 4.15155E11
+        },
+        "others": {
+          "cyb_switch": true
+        },
+        "tags": []
+      }
+    ],
+    "items_size": 1
+  },
+  "error_code": 0,
+  "error_description": ""
+}
