@@ -2,6 +2,8 @@ import requests
 
 
 class TestContact:
+
+    #类测试开始时获取access_token
     def setup_class(self):
         #获取access_token
         self.corpid = 'ww51bb78344d7cccdf'
@@ -13,6 +15,7 @@ class TestContact:
     def teardown_class(self):
         print('class end')
 
+    #创建成员
     def test_create(self):
         data = {
             "userid": "demo",
@@ -25,6 +28,7 @@ class TestContact:
         print(r.json())
         assert r.json()['errmsg'] == 'created'
 
+    #更新成员
     def test_update(self):
         data = {
             "userid": "demo",
@@ -35,6 +39,7 @@ class TestContact:
         print(r.json())
         assert r.json()['errmsg'] == 'updated'
 
+    #获取成员信息
     def test_get(self):
         r = requests.get(f'https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token={self.token}&userid=demo')
         print(r.json())
@@ -42,6 +47,7 @@ class TestContact:
         assert r.json()['userid'] == 'demo'
         assert r.json()['name'] == 'demo2'
 
+    #删除成员
     def test_delete(self):
         r = requests.get(f'https://qyapi.weixin.qq.com/cgi-bin/user/delete?access_token={self.token}&userid=demo')
         print(r.json())
