@@ -1,3 +1,4 @@
+import pytest
 import requests
 
 
@@ -52,3 +53,6 @@ class TestContact:
         r = requests.get(f'https://qyapi.weixin.qq.com/cgi-bin/user/delete?access_token={self.token}&userid=demo')
         print(r.json())
         assert r.json()['errmsg'] == 'deleted'
+
+if __name__ == '__main__':
+    pytest.main(["apitest.py"])
