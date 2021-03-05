@@ -1,0 +1,15 @@
+createmember:
+  - [{'userid':'demo1','name':'demo1','mobile':'12345678901','department':[1]},{'errmsg':'created'}]
+  - [{'userid':'demo1','name':'demo2','mobile':'12345678902','department':[1]},{'errmsg':'userid existed'}]
+
+updatemember:
+  - [{'userid':'demo1','name':'demo11'},{'errmsg':'updated'}]
+  - [{'userid':'asdwafwe','name':'demo11'},{'errmsg':'userid not found'}]
+
+getmember:
+  - ['demo1',{'errmsg':'ok','userid':'demo1','name':'demo11'}]
+  - ['asdwafwe',{'errmsg':'userid not found'}]
+
+deletemember:
+  - ['demo1',{'errmsg':'deleted'}]
+  - ['asdwafwe',{'errmsg':'userid not found'}]
