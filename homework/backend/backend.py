@@ -120,6 +120,8 @@ class TestCaseService(Resource):
 
 #测试任务操作
 class TaskService(Resource):
+
+    #根据名称查询任务
     def get(self):
         name = request.args.get('name', None)
         if name:
@@ -136,6 +138,7 @@ class TaskService(Resource):
         }
         return res
 
+    #新增任务
     def post(self):
         task = Task(
             id=request.json.get("id"),
@@ -159,6 +162,7 @@ class TaskService(Resource):
         res['datas']= datas
         return res
 
+    #根据id修改任务
     def put(self):
         task = Task(
             id=request.json.get("id"),
@@ -188,6 +192,7 @@ class TaskService(Resource):
         res['datas']= datas
         return res
 
+    #根据id删除任务
     def delete(self):
         id = request.args.get('id')
         res = {}
