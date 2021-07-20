@@ -47,8 +47,28 @@ def teardown_module():
 
 @pytest.fixture()
 def show():
-    print("haha")
-    return "hi"
+    print("fixture start")
+    yield
+    print("fixture end")
+
+def test_show(show):
+    print('o')
+
+@pytest.fixture(params=[1,2,3])
+def datas(request):
+    return request.param+1
+
+def test_datas(datas):
+    print(f'{datas}')
+
+
+@pytest.mark.parametrize("a",[1,2,3])
+@pytest.mark.parametrize("b",[1,2,3])
+def test_param(a,b):
+    print(a+b)
+
+
+
 #python入口函数
 if __name__ == "__main__":
     #pytest.main(["test_1.py"])

@@ -15,7 +15,10 @@ class APP(BasePage):
                 # 不清空本地缓存，启动app
                 "noReset": "true",
                 # 设置页面等待空闲状态的时间为0秒
-                'settings[waitForIdleTimeout]': 0
+                "settings[waitForIdleTimeout]": 0,
+                # 设置编码格式支持中文并在结束后重置编码格式
+                "unicodeKeyBoard": True,
+                "resetKeyBoard": True
             }
             self.driver = webdriver.Remote("http://localhost:4723/wd/hub", self.caps)
             self.driver.implicitly_wait(30)

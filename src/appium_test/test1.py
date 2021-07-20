@@ -15,6 +15,8 @@ class TestAppium:
         self.caps["deviceName"] = "device"
         self.caps["appPackage"] = "com.xueqiu.android"
         self.caps["appActivity"] = ".common.MainActivity"
+        self.caps["unicodeKeyBoard"] = True
+        self.caps["resetKeyBoard"] = True
         # 不清空本地缓存，启动app
         self.caps["noReset"] = "true"
         self.caps["ensureWebviewsHavePages"] = True
